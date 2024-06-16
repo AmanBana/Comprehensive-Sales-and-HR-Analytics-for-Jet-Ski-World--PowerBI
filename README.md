@@ -1,11 +1,17 @@
 # Comprehensive-Sales-and-HR-Analytics-for-Jet-Ski-World--PowerBI
 Project Name: Comprehensive Sales and HR Analytics for Jet-Ski World
+
 Objective: The primary goal of this project was to empower Jet-Ski World with data-driven insights for strategic decision-making in sales optimization and human resource management.
+
 Project Overview: In this project, I developed two robust PowerBI reports aimed at dissecting complex data into actionable insights for Jet-Ski World, a leading jet ski company.
+
 Data Gathering and Import
+
 The first step is gathering relevant data and business requirements. For this project, we will use sample sales data for a fictional company JetSKi World provided in Excel, text and PDF formats.
 We import the data by selecting the appropriate file type and loading the tables. This gives us a connected dataset to work with in Power BI.
+
 Data Transformation
+
 With the raw data imported, we now clean and transform it to prepare for analysis. Key steps include:
 •	Renaming tables for clarity
 •	Removing unnecessary rows
@@ -16,9 +22,11 @@ With the raw data imported, we now clean and transform it to prepare for analysi
 •	Replacing text values
 •	Changing data types
 •	Filtering out unused data
+
 These transformations shape the data into an optimal form for visualization.
 
 Data Modeling
+
 Next, we build relationships between the tables to create a star schema model. The core Fact table is the Sales table, which connects to supporting Dimension tables like Category, Product, and Distributor.
 We also create new calculated columns and measures using DAX to derive additional insights. Examples are a Total Cost column and Sales Growth measure.
 
